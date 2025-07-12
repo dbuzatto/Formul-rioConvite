@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+  background-color: var(--shape-background);
+}
+
+:root {
+  /* Font families */
+  --font-logo: 'Leckerli One', cursive;
+  --font-heading: 'Baloo 2', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+
+  /* Font sizes & weights */
+  --font-logo-size: 40px;
+  --font-logo-weight: 400;
+
+  --font-heading-md-size: 28px;
+  --font-heading-md-weight: 700;
+
+  --font-heading-sm-size: 18px;
+  --font-heading-sm-weight: 700;
+
+  --font-body-md-size: 16px;
+  --font-body-md-weight-regular: 400;
+  --font-body-md-weight-semibold: 600;
+
+  --font-body-sm-size: 14px;
+  --font-body-sm-weight-regular: 400;
+  --font-body-sm-weight-semibold: 600;
+
+  --font-body-xs-size: 12px;
+  --font-body-xs-weight-regular: 400;
+  --font-body-xs-weight-semibold: 600;
+
+  --line-height-default: normal;
+
+  /* Brand Colors */
+  --brand-light: #59B2FF;
+  --brand-mid: #3487CF;
+  --brand-dark: #1D6FB6;
+
+  /* Accent Colors */
+  --accent-purple: #B259FF;
+  --accent-fuschia: #FF59F9;
+  --accent-pink: #FF598B;
+  --accent-orange: #FF8B59;
+  --accent-yellow: #FFCD59;
+  --accent-lime: #E1FF59;
+  --accent-green: #59FF91;
+  --accent-cyan: #59FFF9;
+  --accent-navy: #6A59FF;
+
+  /* Feedback */
+  --feedback-danger: #FF5959;
+
+  /* Input Colors */
+  --input-base: #1C1F21;
+  --input-stroke: #363B40;
+  --input-placeholder: #869198;
+
+  /* Shape Colors */
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2D3136;
+  --shape-hover: #383D42;
+
+  /* Text Colors */
+  --text-body: #C8CDD0;
+  --text-heading: #F9F9F9;
+}

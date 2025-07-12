@@ -1,0 +1,35 @@
+aside {
+  background-image: url(../assets/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: var(--font-body);
+  width: 25rem;
+  height: 45.5rem;
+  border-radius: 12px;
+  margin: 1.25rem;
+}
+
+
+.aside-container > div {
+    padding: 2rem 2rem 34.5rem 2rem;
+    img {
+        width: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+.aside-container h1 {
+    color: var(--accent-pink);
+    font-family: var(--font-logo);
+    font-size: var(--font-logo-size);
+    font-weight: var(--font-logo-weight);
+}
+
+
+.aside-container p {
+    color: var(--text-heading);
+    font-size: var(--font-body-md-size); 
+    font-weight: lighter;
+}
