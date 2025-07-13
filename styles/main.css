@@ -1,15 +1,14 @@
 main {
-    height: 100vh;
+    height: calc(100vh - 2.5rem);
     overflow-y: auto;
     background-color: var(--shape-body);
     margin: 1.25rem 1.25rem 1.25rem 0;
     border-radius: 12px;
-    padding: 5rem 8.125rem 0 8.125rem;
+    padding: 5rem 8.125rem 5rem 8.125rem;
+    box-sizing: border-box;
 }
 
-
 header {
-
     padding-bottom: 2.5rem;
     p {
         color: var(--text-heading);
@@ -18,7 +17,6 @@ header {
         font-weight: var(--font-heading-md-weight);
     }
 }
-
 
 #aboutinit {
     display: flex;
@@ -33,7 +31,44 @@ header {
         display: flex;
         align-items: center;    
     }
-
 }
+
+.startend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.typelocal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    height: 3rem;
+}
+
+.type {
+  display: grid;
+  font-family: var(--font-body);
+  padding-bottom: 1rem;
+}
+
+
+.type-options {
+    display: flex;
+    border: 1px solid var(--input-stroke);
+    border-radius: 8px;
+    background-color: var(--input-base);
+    overflow: hidden;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+
 
 

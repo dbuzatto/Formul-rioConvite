@@ -27,12 +27,56 @@
       <div class="all">
         <div class="about">
           <div id="aboutinit">
-            <img src="assets/icons/calendar.svg" alt="Ícone de calendário">
+            <img src="assets/icons/calendar.svg" alt="Ícone de calendário" />
             <p>Sobre o evento</p>
           </div>
           <div class="input-wrapper">
             <label for="title">Título</label>
-            <input type="text" id="title" name="title" placeholder="Nome do evento">
+            <input
+              type="text"
+              id="title"
+              name="title"
+              placeholder="Nome do evento"
+            />
+          </div>
+          <div class="startend">
+            <div class="input-wrapper">
+              <label for="start">Início</label>
+              <input type="date" id="start" name="start" />
+            </div>
+            <div class="input-wrapper">
+              <label for="end">Fim </label>
+              <input type="date" id="end" name="end" />
+            </div>
+          </div>
+          <div class="typelocal input-wrapper">
+            <div class="type">
+              <label for="type">Tipo</label>
+              <div class="type-options border">
+                <input type="radio" name="type" id="presencial" />
+                <label for="presencial" class="type-option">
+                  <img src="assets/icons/building-2.svg" alt="" />
+                  Presencial
+                </label>
+
+                <input type="radio" name="type" id="online" />
+                <label for="online" class="type-option">
+                  <img src="assets/icons/video.svg" alt="" />
+                  Online
+                </label>
+              </div>
+            </div>
+            <div class="local">
+              <div class="input-wrapper">
+                <label for="local">Local</label>
+                <input
+                  type="text"
+                  id="local"
+                  name="local"
+                  placeholder="Link ou endereço"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

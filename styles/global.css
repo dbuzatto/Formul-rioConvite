@@ -11,6 +11,11 @@ body {
   margin: 0;
 }
 
+html, body {
+    height: 100%;
+    overflow: hidden; /* Remove scroll do body */
+}
+
 :root {
   --font-logo: 'Leckerli One', cursive;
   --font-heading: 'Baloo 2', sans-serif;
@@ -78,16 +83,36 @@ body {
       color: var(--text-body);
       padding-bottom: 0.75rem;
     }
+    padding-bottom: 1rem;
     input {
-
+        
         font-size: var(--font-body-md-size);
         font-weight: var(--font-body-md-weight-regular);
         color: var(--input-placeholder);
         padding-left: 1rem;
-        border: none;
+        border: 1px solid var(--input-stroke);
         outline: none;
         height: 3rem;
         background-color: var(--input-base);
         border-radius: 8px;
     }
+}
+
+
+.border {
+   border: 1px solid var(--input-stroke);
+}
+
+
+.input-wrapper {
+  display: grid;
+  font-family: var(--font-body);
+  padding-bottom: 1rem;
+}
+
+.input-wrapper label {
+  font-size: var(--font-body-sm-size);
+  font-weight: var(--font-body-sm-weight-regular);
+  color: var(--text-body);
+  padding-bottom: 0.75rem;
 }
