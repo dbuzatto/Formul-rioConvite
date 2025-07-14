@@ -1,0 +1,76 @@
+#colors {
+    p {
+        color: white;
+        font-family: var(--font-body);
+        height: 14px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+}
+
+.color-picker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 12px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.color-option {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 6px solid var(--shape-button);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.color-option:hover {
+    transform: scale(1.1);
+}
+
+
+.color-option[data-color="blue"] {
+    background-color: var(--brand-light);
+}
+
+.color-option[data-color="purple"] {
+    background-color: var(--accent-purple);
+}
+
+.color-option[data-color="magenta"] {
+    background-color: var(--accent-fuschia);
+}
+
+.color-option[data-color="pink"] {
+    background-color: var(--accent-pink);
+}
+
+.color-option[data-color="coral"] {
+    background-color: #ff6b6b;
+}
+
+.color-option[data-color="red"] {
+    background-color: #ff8a65;
+}
+
+.color-option[data-color="orange"] {
+    background-color: var(--accent-orange);
+}
+
+.color-option[data-color="yellow"] {
+    background-color: var(--accent-yellow);
+}
+
+.color-option[data-color="lime"] {
+    background-color: var(--accent-lime);
+}
+
+.color-option[data-color="green"] {
+    background-color: var(--accent-green);
+}
+
+.color-option[data-color="cyan"] {
+    background-color: var(--accent-cyan);
+}

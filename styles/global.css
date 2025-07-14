@@ -85,7 +85,6 @@ html, body {
     }
     padding-bottom: 1rem;
     input {
-        
         font-size: var(--font-body-md-size);
         font-weight: var(--font-body-md-weight-regular);
         color: var(--input-placeholder);
@@ -95,6 +94,10 @@ html, body {
         height: 3rem;
         background-color: var(--input-base);
         border-radius: 8px;
+    }
+
+    input::placeholder {
+      color: var(--input-placeholder);
     }
 }
 
