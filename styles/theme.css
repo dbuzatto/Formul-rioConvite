@@ -1,0 +1,46 @@
+#theme {
+    p {
+        color: white;
+        font-family: var(--font-body);
+        height: 14px;
+        font-weight: 400;
+        margin-top: 1.75rem;
+        margin-bottom: 1rem;
+    }
+}
+
+#themes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+
+.theme-option {
+    background-color: var(--shape-button);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0.5rem; */
+    cursor: pointer;
+    gap: 0.5rem;
+}
+
+.theme-option img {
+    padding: 4px 4px 0 4px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.theme-option span {
+    font-family: var(--font-body);
+    font-size: var(--font-body-sm-size);
+    font-weight: var(--font-body-sm-weight-regular);
+    color: var(--text-heading);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
